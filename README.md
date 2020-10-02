@@ -1,4 +1,4 @@
-<p align="center"><img src="./logoTituloCubo.png" width="50%"></p>
+<p align="center"><img src="./logoTituloCubo.png" width="35%"></p>
 <p align="center">
   <a href="https://github.com/3dinvein" alt="MadeBy">
     <img src="https://img.shields.io/badge/made%20by-Luiz%20Eduardo-blue" />
