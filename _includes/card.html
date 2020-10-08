@@ -1,0 +1,13 @@
+<div class="card card-custom bg-white border-white border-0">
+  <div class="card-custom-img" style="background-image: url('{{ include.curso.background | relative_url }}');"></div>
+  <div class="card-custom-avatar">
+    <img class="img-fluid" src="{{ 'assets/images/logos/' | relative_url }}{{ include.curso.icon }}" alt="Logo da capa" />
+  </div>
+  <div class="card-body" style="overflow-y: auto">
+    <h4 class="card-title">{{ include.curso.title }}</h4>
+    <p class="card-text">{{ include.curso.description }}</p>
+  </div>
+  <div class="card-footer" style="background: inherit; border-color: inherit;">
+    <a href="{{ include.curso.link }}" class="btn btn-primary">Iniciar</a>
+  </div>
+</div>

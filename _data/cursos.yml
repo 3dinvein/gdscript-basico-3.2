@@ -1,0 +1,23 @@
+- title: "Fundamentos da Linguagem C"
+  description: "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural."
+  icon: "linguagem-c-logo.png"
+  background: "assets/images/cursos/01.jpg"
+  link: "#curso"
+
+- title: "Godot"
+  description: "Godot é um motor de jogo de código aberto publicado no âmbito da licença MIT desenvolvido pela comunidade do Godot Engine."
+  icon: "godot-logo.png"
+  background: "assets/images/cursos/02.jpg"
+  link: "#curso"
+
+- title: "Curso de Linux Básico"
+  description: "Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux."
+  icon: "linux-logo.png"
+  background: "assets/images/cursos/03.jpg"
+  link: "#curso"
+
+- title: "Modelagem 3d Low Poly"
+  description: "Lowpoly é uma malha poligonal em computação gráfica 3d que possuí uma quantidade de polígonos relativamente pequena."
+  icon: "blender-logo.png"
+  background: "assets/images/cursos/04.jpg"
+  link: "#curso"
