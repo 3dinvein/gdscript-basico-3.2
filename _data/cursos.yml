@@ -1,14 +1,14 @@
-- title: "Fundamentos da Linguagem C"
-  description: "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural."
-  icon: "linguagem-c-logo.png"
-  background: "assets/images/cursos/01.jpg"
-  link: "cursos/linguagem-c/aula-01"
-
 - title: "Godot"
   description: "Godot é um motor de jogo de código aberto publicado no âmbito da licença MIT desenvolvido pela comunidade do Godot Engine."
   icon: "godot-logo.png"
   background: "assets/images/cursos/02.jpg"
   link: "cursos/godot/aula-01"
+  
+- title: "Fundamentos da Linguagem C"
+  description: "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural."
+  icon: "linguagem-c-logo.png"
+  background: "assets/images/cursos/01.jpg"
+  link: "cursos/linguagem-c/aula-01"
 
 - title: "Curso de Linux Básico"
   description: "Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux."
