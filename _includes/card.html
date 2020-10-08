@@ -8,6 +8,6 @@
     <p class="card-text">{{ include.curso.description }}</p>
   </div>
   <div class="card-footer" style="background: inherit; border-color: inherit;">
-    <a href="{{ include.curso.link }}" class="btn btn-primary">Iniciar</a>
+    <a href="{{ include.curso.link | relative_url }}" class="btn btn-primary">Iniciar</a>
   </div>
 </div>

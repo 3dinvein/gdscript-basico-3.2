@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} | {{site.name}}</title>
+
+    {% seo %}
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap Modified -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css">
+    
+    {% include tracking-header.html %}
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    {% include header.html %}
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+		
+		<div class="container d-md-flex align-items-stretch">
+      <!-- Page Content  -->
+      <div class="row">
+        <div class="col-xl-9 col-md-7 col-sm-12">
+          <div id="content" class="p-4 p-md-5 pt-5">
+            <h2 class="mb-4">{{ page.title }}</h2>
+            {{ content }}
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-5 col-sm-12">
+          <nav id="sidebar">
+            <div class="p-4 pt-5">
+              {% if page.summary and site.data.summarys[page.summary] %}
+              <h5>Assuntos</h5>
+              <ul class="list-unstyled components mb-5">
+                {% for item in site.data.summarys[page.summary] %}
+                <li>
+                  {% if item.subjects %}
+                  <a href="#pageSubmenu{{ forloop.index }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">{{ item.title }}</a>
+                  <ul class="collapse list-unstyled" id="pageSubmenu{{ forloop.index }}">
+                    {% for subject in item.subjects %}
+                      <li><a href="{{ subject.link | relative_url }}"><span class="fa fa-chevron-right mr-2"></span>{{ subject.subtitle }}</a></li>
+                    {% endfor %}                    
+                  </ul>
+                  {% else %}
+                  <a href="{{ item.link }}"><span class="fa fa-chevron-right mr-2"></span>{{ item.title }}</a>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+
+              <div class="mb-5">
+                <h5>Palavras Chaves</h5>
+                <div class="tagcloud">
+                  {% for tag in page.tags %}
+                    <a href="#" class="tag-cloud-link">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-white border-top p-3 text-muted small">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div>
+                <span class="navbar-brand mr-2 mb-0"><strong>3D NA VEIA</strong></span>
+                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+            </div>
+            <div>
+                Esse site utiliza como tema básico <a target="_blank" class="text-dark font-weight-bold" href="https://github.com/wowthemesnet/mundana-theme-jekyll"> Mundana Jekyll Theme </a>.
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    {% include tracking-footer.html %}
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js"></script>
+    <script src="{{ 'assets/js/gdscript.min.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/app.js' | relative_url }}"></script>
+  </body>
+</html>
