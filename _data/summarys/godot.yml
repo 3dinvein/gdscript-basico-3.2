@@ -1,0 +1,50 @@
+- title: 'Introdução'
+  subjects:
+    - subtitle: 'Variáveis tipadas'
+      link: 'cursos/godot/aula-01'
+    - subtitle: 'Variáveis dinâmicas e variáveis constantes'
+      link: 'cursos/godot/aula-02'
+    - subtitle: 'Operações matemáticas básicas'
+      link: 'cursos/godot/aula-03'
+    - subtitle: 'Concatenação'
+      link: 'cursos/godot/aula-04'
+
+- title: 'Comandos de seleção'
+  subjects:
+    - subtitle: 'Operadores de comparação e operadores lógicos'
+      link: 'cursos/godot/aula-05'
+    - subtitle: 'Condições ( if / elif / else )'
+      link: 'cursos/godot/aula-06'
+    - subtitle: 'Condições ( match )'
+      link: 'cursos/godot/aula-07'
+
+- title: 'Arrays'
+  subjects:
+    - subtitle: 'Lista de valores com Arrays'
+      link: 'cursos/godot/aula-08'
+    - subtitle: 'Percorrendo e buscando valores no array'
+      link: 'cursos/godot/aula-09'
+    - subtitle: 'Loop de repetição'
+      link: 'cursos/godot/aula-10'
+
+- title: 'Funções'
+  subjects:
+    - subtitle: 'Função sem retorno ( void )'
+      link: 'cursos/godot/aula-11'
+    - subtitle: 'Função sem retorno com parâmetro'
+      link: 'cursos/godot/aula-12'
+    - subtitle: 'Função com retorno por valor'
+      link: 'cursos/godot/aula-13'
+    - subtitle: 'Função com retorno por referência'
+      link: 'cursos/godot/aula-14'
+
+- title: 'Módulos avançados'
+  subjects:
+    - subtitle: 'Classes'
+      link: 'cursos/godot/aula-15'
+    - subtitle: 'Herança de classe'
+      link: 'cursos/godot/aula-16'
+    - subtitle: 'Funções principais da Godot Engine 3.2'
+      link: 'cursos/godot/aula-17'
+    - subtitle: 'Váriavel do tipo onready'
+      link: 'cursos/godot/aula-18'
