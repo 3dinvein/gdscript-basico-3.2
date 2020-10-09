@@ -3,13 +3,16 @@
   <a href="https://github.com/3dinvein" alt="MadeBy">
     <img src="https://img.shields.io/badge/made%20by-Luiz%20Eduardo-blue" />
   </a>
+  <a href="https://github.com/3dinvein" alt="Graphic Design">
+    <img src="https://img.shields.io/badge/Graphic%20Design%20made%20by-Renan-blue" />
+  </a>
   <a href="./README.md" alt="License">
     <img src="https://img.shields.io/badge/license-MIT-blue" />
   </a>
 </p>
 
-| [Introdução] | [Playlist] | [Site] | [Aulas] | [Programador e Criador do Design] |
-|--------------|------------|--------|---------|-----------------------------------|
+| [Introdução] | [Playlist] | [Site] | [Aulas] |
+|--------------|------------|--------|---------|
 - - -
 
 # GDScript Básico 3.2
