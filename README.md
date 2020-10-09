@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/made%20by-Luiz%20Eduardo-blue" />
   </a>
   <a href="https://github.com/3dinvein" alt="Graphic Design">
-    <img src="https://img.shields.io/badge/layout%20design%20made%20by-Renan-blue" />
+    <img src="https://img.shields.io/badge/layout%20design%20made%20by-Reinan Gabriel-blue" />
   </a>
   <a href="./README.md" alt="License">
     <img src="https://img.shields.io/badge/license-MIT-blue" />
