@@ -63,3 +63,4 @@ Qualquer coisa desde um `#` até o fim da linha é ignorada e é considerada com
 [Playlist]: https://www.youtube.com/watch?v=R4fNsfGpvMQ&list=PL29O-BKxbiTs5IS4-s5ELdul-ViQYC-bh
 [Aulas]: #Aulas
 [Site]: https://3dinvein.github.io/gdscript-basico-3.2
+[Programador e Criador do Design]: #Renan
